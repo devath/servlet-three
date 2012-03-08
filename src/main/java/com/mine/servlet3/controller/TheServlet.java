@@ -19,4 +19,11 @@ public class TheServlet extends HttpServlet {
            String jspPath = "view/main.jsp";
            request.getRequestDispatcher(jspPath).forward(request, response);
     }
+	
+	/**
+	 * Tester le plugin pmd.
+	 */
+	private void triggerWarnnings() {
+		String variable="toto";   
+	}
 }
