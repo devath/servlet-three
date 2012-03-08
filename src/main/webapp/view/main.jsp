@@ -10,7 +10,7 @@
 <center>
 <table>
 	<tr>
-		<td>Jsp appell&eacute;  apr&egrave;s par.... <strong> THE SERVLET </strong></td>
+		<td>Jsp appell&eacute;  apr&egrave;s par.... <strong> THE SERVLET </strong> with a little modification</td>
 	</tr>
 </table>
 </center>
