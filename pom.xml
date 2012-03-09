@@ -12,6 +12,8 @@
 
 	<build>
 		<finalName>servlet-three</finalName>
+		<sourceEncoding>UTF-8</sourceEncoding>    
+         
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
