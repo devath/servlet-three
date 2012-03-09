@@ -10,9 +10,12 @@
 	<name>servlet-three</name>
 	<url>http://maven.apache.org</url>
 
+    <properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
+    </properties>
+
 	<build>
-		<finalName>servlet-three</finalName>
-		<sourceEncoding>UTF-8</sourceEncoding>    
+		<finalName>servlet-three</finalName>		   
          
 		<plugins>
 			<plugin>
