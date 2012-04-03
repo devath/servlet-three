@@ -17,6 +17,7 @@ public class TheServlet extends HttpServlet {
 	@Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
            String jspPath = "view/main.jsp";
+           // Comment to commit.
            request.getRequestDispatcher(jspPath).forward(request, response);
     }
 	
@@ -24,6 +25,6 @@ public class TheServlet extends HttpServlet {
 	 * Tester le plugin pmd.
 	 */
 	private void triggerWarnnings() {
-		String variable="toto";   
+		String variable = "toto";   
 	}
 }
